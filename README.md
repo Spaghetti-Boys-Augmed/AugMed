@@ -28,7 +28,7 @@ Para a realização desta aplicação foram utilizadas as seguintes tecnologias:
 
 Para instalar a aplicação basta descarregar a APK e instalar no smartphone.
 
-[![Download](https://i.ibb.co/YppSMR2/images-buttons-download-red-download-button-11562896412yilsysnxsr.png)](https://taikai.network/en/junitec/challenges/tecstorm2021/projects/ckj03ft1341v80707kpwskstq)
+[![Download](https://i.ibb.co/60z7wq4/images-buttons-download-red-download-button-11562896412yilsysnxsr-removebg-preview.png)](https://taikai.network/en/junitec/challenges/tecstorm2021/projects/ckj03ft1341v80707kpwskstq)
 
 Para conseguir instlar aplicações externas no seu smartphone tem que ter a opção habilitada nas definições.
 
