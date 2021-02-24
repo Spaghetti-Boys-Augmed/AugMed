@@ -39,7 +39,7 @@ Para conseguir instlar aplicações externas no seu smartphone tem que ter a op�
 
 **Esta App foi criada para o Hackaton Nacional Tecstorm 2021 realizado em Portugal sendo por isso um simples prótotipo de uma ideia de negócio.**
 
-[![Tecstorm](https://i.ibb.co/vm0hJDD/download-1.png)](https://taikai.network/en/junitec/challenges/tecstorm2021/projects/ckj03ft1341v80707kpwskstq)
+[![Tecstorm](https://i.ibb.co/3dv5hfZ/download-1-removebg-preview.png)](https://taikai.network/en/junitec/challenges/tecstorm2021/projects/ckj03ft1341v80707kpwskstq)
    
 ## Licença
 
