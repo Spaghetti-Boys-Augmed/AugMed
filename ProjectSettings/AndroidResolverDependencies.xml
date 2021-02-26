@@ -62,7 +62,7 @@
   </files>
   <settings>
     <setting name="androidAbis" value="armeabi-v7a" />
-    <setting name="bundleId" value="com.SpghettyBoys.AugMed" />
+    <setting name="bundleId" value="edm.SpaghettyBoys.AugMed" />
     <setting name="explodeAars" value="True" />
     <setting name="gradleBuildEnabled" value="True" />
     <setting name="gradlePropertiesTemplateEnabled" value="False" />

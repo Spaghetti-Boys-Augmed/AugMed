@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "872988534404",
+    "project_id": "augmed-b88b9",
+    "storage_bucket": "augmed-b88b9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:872988534404:android:e3e468004261cfc914c4d1",
+        "android_client_info": {
+          "package_name": "edm.SpaghettyBoys.AugMed"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "872988534404-08jh759iqal2dif2en7thluqdl2mmmll.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBiiaRoPsRImNmM--c9Ew48kDt4CMjyF4Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "872988534404-08jh759iqal2dif2en7thluqdl2mmmll.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
