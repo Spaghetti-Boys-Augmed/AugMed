@@ -1314,8 +1314,9 @@ GameObject:
   - component: {fileID: 1716623437}
   - component: {fileID: 1716623436}
   - component: {fileID: 1716623435}
+  - component: {fileID: 1716623438}
   m_Layer: 5
-  m_Name: Button
+  m_Name: btn_changeToLogin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1421,6 +1422,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1716623433}
   m_CullTransparentMesh: 0
+--- !u!114 &1716623438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1716623433}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5deffba47d0e5324fac2cc7e6a8d9107, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sendBtn: {fileID: 1716623435}
+  btnValue: 0
 --- !u!1 &1755690880
 GameObject:
   m_ObjectHideFlags: 0

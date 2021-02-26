@@ -133,8 +133,9 @@ GameObject:
   - component: {fileID: 16255248}
   - component: {fileID: 16255247}
   - component: {fileID: 16255246}
+  - component: {fileID: 16255249}
   m_Layer: 5
-  m_Name: Button
+  m_Name: btn_gotToRegisto
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -240,6 +241,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 16255244}
   m_CullTransparentMesh: 0
+--- !u!114 &16255249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 16255244}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c76fe300ed6fe5c4e93a8aad80fbecd2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sendBtn: {fileID: 16255246}
+  btnValue: 0
 --- !u!1 &230861169
 GameObject:
   m_ObjectHideFlags: 0
