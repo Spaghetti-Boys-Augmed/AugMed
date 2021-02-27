@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Registo.unity
     guid: c9424f389f0d69e43b30c5b1323a919b
+  - enabled: 1
+    path: Assets/Scenes/Livro1.unity
+    guid: f6d916b5d37982545afaa73636f3e8f7
   m_configObjects: {}

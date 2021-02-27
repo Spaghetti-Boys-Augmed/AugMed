@@ -64,6 +64,6 @@ MonoBehaviour:
     autoInitTracker: 0
     autoStartTracker: 0
   webcam:
-    deviceNameSetInEditor: 
+    deviceNameSetInEditor: DroidCam Source 2
     turnOffWebCam: 0
     renderTextureLayer: 30
