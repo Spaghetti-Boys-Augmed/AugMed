@@ -27,7 +27,8 @@ public class auth : MonoBehaviour
     public InputField  emailRegisterField;
     public InputField  passwordRegisterField;
     public Text warningRegisterText;
-    
+
+    public static user user;
    public void Awake()
     {
         
@@ -181,7 +182,7 @@ public class auth : MonoBehaviour
                     }
                     else
                     {
-                        user user= new user(_username,_email);
+                        user= new user(_username,_email);
                         RestClient.Put("https://augmed-b88b9-default-rtdb.firebaseio.com/"+user.userName+".json",
                             user);
                         Debug.LogWarning(_email+" "+user);

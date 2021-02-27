@@ -21,4 +21,28 @@ public class user
        return email;
    }
    
+   public void setFav(String btnFav)
+   {
+       fav.Add(btnFav);
+   }
+   
+   public int findFav(String btnFav)
+   {
+       foreach (String favs in fav)
+       {
+           if (favs == btnFav)
+           {
+               return 1;
+           }
+       }
+       return 0;
+   }
+   
+   public void removeFav(String btnFav)
+   {
+       var index = fav.FindIndex(i => i == btnFav);
+       if (index >= 0) {  
+           fav.RemoveAt(index);
+       }
+   }
 }
