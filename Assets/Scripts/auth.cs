@@ -28,7 +28,10 @@ public class auth : MonoBehaviour
     public InputField  passwordRegisterField;
     public Text warningRegisterText;
 
+    public static FirebaseUser userglobal;
+
     public static user user;
+
    public void Awake()
     {
         
@@ -103,10 +106,12 @@ public class auth : MonoBehaviour
            
            User = LoginTask.Result;
            Debug.LogFormat("User signed in successfully: {0} ({1})", User.DisplayName, User.Email);
-      
-           warningLoginText.text = "";
-           warningLoginText.text = "User não logado";
-       }
+            userglobal = User;
+            user = new user (User.DisplayName, User.Email);
+            
+
+            SceneManager.LoadScene("Scenes/Dashboard", LoadSceneMode.Single);
+        }
    }
    
    

@@ -158,8 +158,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -731}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 13.925, y: -752}
+  m_SizeDelta: {x: 132.15039, y: 16.303253}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &16255246
 MonoBehaviour:
@@ -389,7 +389,7 @@ RectTransform:
   m_GameObject: {fileID: 333128660}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3.2925, y: 3.2925, z: 3.2925}
+  m_LocalScale: {x: 2, y: 2, z: 3.2925}
   m_Children: []
   m_Father: {fileID: 904013880}
   m_RootOrder: 4
@@ -397,7 +397,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: -376}
-  m_SizeDelta: {x: 250, y: 30}
+  m_SizeDelta: {x: 500, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &358258349
 GameObject:
@@ -831,8 +831,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -6, y: -485}
-  m_SizeDelta: {x: 160, y: 40}
+  m_AnchoredPosition: {x: 4, y: -456.4}
+  m_SizeDelta: {x: 228.88187, y: 43.562782}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &927909058
 MonoBehaviour:
@@ -962,8 +962,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -255}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 7.6, y: -255}
+  m_SizeDelta: {x: 198.66437, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1132466424
 MonoBehaviour:
@@ -1007,8 +1007,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1132466425}
   m_TextComponent: {fileID: 887756755}
   m_Placeholder: {fileID: 1918897266}
-  m_ContentType: 0
-  m_InputType: 0
+  m_ContentType: 7
+  m_InputType: 2
   m_AsteriskChar: 42
   m_KeyboardType: 0
   m_LineType: 0
@@ -1181,8 +1181,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -48}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 3.8, y: -48}
+  m_SizeDelta: {x: 198.66437, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1393863354
 MonoBehaviour:
@@ -1226,13 +1226,13 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1393863355}
   m_TextComponent: {fileID: 1341564699}
   m_Placeholder: {fileID: 760869141}
-  m_ContentType: 0
+  m_ContentType: 6
   m_InputType: 0
   m_AsteriskChar: 42
-  m_KeyboardType: 0
+  m_KeyboardType: 7
   m_LineType: 0
   m_HideMobileInput: 0
-  m_CharacterValidation: 0
+  m_CharacterValidation: 5
   m_CharacterLimit: 0
   m_OnEndEdit:
     m_PersistentCalls:

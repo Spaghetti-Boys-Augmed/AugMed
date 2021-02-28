@@ -9,12 +9,24 @@ EditorBuildSettings:
     path: Assets/Scenes/StartScreen.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
-    path: Assets/Scenes/Login.unity
-    guid: e742d3f5a0bc33d4e98a095ebca160f2
-  - enabled: 1
     path: Assets/Scenes/Registo.unity
     guid: c9424f389f0d69e43b30c5b1323a919b
   - enabled: 1
+    path: Assets/Scenes/Login.unity
+    guid: e742d3f5a0bc33d4e98a095ebca160f2
+  - enabled: 1
+    path: Assets/Scenes/Dashboard.unity
+    guid: 7e28d899d7ad0f340a9814e6bfd52a07
+  - enabled: 1
     path: Assets/Scenes/Livro1.unity
     guid: f6d916b5d37982545afaa73636f3e8f7
+  - enabled: 1
+    path: Assets/Scenes/Livro2.unity
+    guid: 8a8c0d3659f07194ab147c262f9f0990
+  - enabled: 1
+    path: Assets/Scenes/Favoritos.unity
+    guid: 05068a0a13cf0b54fac826b39d86370b
+  - enabled: 1
+    path: Assets/Scenes/favE.unity
+    guid: 4665dba1297e3fa47aa1b9de270f80eb
   m_configObjects: {}

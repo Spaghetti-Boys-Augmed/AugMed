@@ -10,9 +10,9 @@ public class SaveFav : MonoBehaviour
 {
     public Button fav;
     public  String favBtn;
-
-    private user user = new user("dfsdf", "123@asda.com");
-    //private user user = auth.user;
+    
+   // private user user = new user("dfsdf", "123@asda.com");
+    private user user = auth.user;
     void Start()
     {
         Button btn =fav.GetComponent<Button>();
@@ -31,26 +31,51 @@ public class SaveFav : MonoBehaviour
         RestClient.Get<user>("https://augmed-b88b9-default-rtdb.firebaseio.com/"+user.userName+".json").Then(
             response =>
             {
-                
+                Debug.Log("Passed");
                 user = response;
+                user.toString();
+                int rep = user.findFav(favBtn);
+                if (rep == 0)
+                {
+                    ChangeImage();
+                    Debug.Log("Adicionado");
+                    user.setFav(favBtn);
+                    user.toString();
+                    RestClient.Put("https://augmed-b88b9-default-rtdb.firebaseio.com/"+user.userName+".json", user);   
+                }
+                else if (rep == 1)
+                {
+                    ChangeImage();
+                    Debug.Log("Removido");
+                    user.removeFav(favBtn);
+                    user.toString();
+                    RestClient.Put("https://augmed-b88b9-default-rtdb.firebaseio.com/"+user.userName+".json", user);  
+                }
             });
-        int rep = user.findFav(favBtn);
-        if (rep == 0)
-        {
-            ChangeImage();
-            Debug.Log("Adicionado");
-            user.setFav(favBtn);
-            RestClient.Put("https://augmed-b88b9-default-rtdb.firebaseio.com/"+user.userName+".json", user);   
-        }
-        else
-        {
-            ChangeImage();
-            Debug.Log("Removido");
-            user.removeFav(favBtn);
-            RestClient.Put("https://augmed-b88b9-default-rtdb.firebaseio.com/"+user.userName+".json", user);  
-        }
+    }
+
+    private void OnEnable()
+    {
+        RestClient.Get<user>("https://augmed-b88b9-default-rtdb.firebaseio.com/" + user.userName + ".json").Then(
+            response =>
+            {
+                Debug.Log("Passed");
+                user = response;
+                user.toString();
+                int rep = user.findFav(favBtn);
+                if (rep == 0)
+                {
+                    fav.image.sprite = OffSprite;
+
+                }
+                else if (rep == 1)
+                {
+                    fav.image.sprite = OnSprite;
+                }
+            });
     }
     
+
     public Sprite OffSprite;
     public Sprite OnSprite;
     public void ChangeImage(){
