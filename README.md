@@ -3,7 +3,7 @@
 
 [![Augmed](https://i.ibb.co/10wWCRz/logo-augmed1.png)](https://taikai.network/en/junitec/challenges/tecstorm2021/projects/ckj03ft1341v80707kpwskstq)
 
-[![Made with Unity](https://img.shields.io/badge/Made%20with-Unity-57b9d3.svg?style=flat&logo=unity)](https://unity3d.com) [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/) [![Only 500 MB](https://img.shields.io/badge/size-300%20MB-brightgreen.svg)](https://github.com/Naereen/StrapDown.js/blob/master/strapdown.min.js) [![GitHub version](https://badge.fury.io/gh/Naereen%2FStrapDown.js.svg)](https://github.com/Naereen/StrapDown.js)
+[![Made with Unity](https://img.shields.io/badge/Made%20with-Unity-57b9d3.svg?style=flat&logo=unity)](https://unity3d.com) [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/) [![Only 500 MB](https://img.shields.io/badge/size-300%20MB-brightgreen.svg)](https://github.com/Naereen/StrapDown.js/blob/master/strapdown.min.js) [![GitHub version](https://d25lcipzij17d.cloudfront.net/badge.svg?id=gh&type=6&v=1.0&x2=0)](https://github.com/Naereen/StrapDown.js)
 
 AugMed é uma aplicação AR para Android que permite visualizar modelos 3D a partir de imagens ou QR Codes próprios que estariam em manuais de medicina.
 
