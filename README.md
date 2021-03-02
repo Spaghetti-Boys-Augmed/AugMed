@@ -28,7 +28,7 @@ Para a realização desta aplicação foram utilizadas as seguintes tecnologias:
 
 Para instalar a aplicação basta descarregar a APK e instalar no smartphone.
 
-[![Download](https://github.com/fabian-nunes/AugMed/releases/tag/v1.0)
+[![Download](https://github.com/fabian-nunes/AugMed/releases/tag/v1.0)[![Download](https://i.ibb.co/60z7wq4/images-buttons-download-red-download-button-11562896412yilsysnxsr-removebg-preview.png)](https://github.com/fabian-nunes/AugMed/releases/tag/v1.0)
 
 Para conseguir instlar aplicações externas no seu smartphone tem que ter a opção habilitada nas definições.
 
